@@ -13,12 +13,26 @@
 	<link rel="stylesheet" type="text/css" href="./default.css">
 	<!-- <link rel="stylesheet" type="text/css" href="./main.css"> -->
 	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Jina LEE">
+	<meta name="keywords" content="지속가능한 패션 산업">
+	<meta name="description" content="지속가능한 패션 산업">
+	<meta property="or:url" content=""/>
+	<meta property="or:title" content="sustainable fashion">
+	<meta property="og:type" content="website"/>
+	<meta property="og:image" content="woman.jpg"/>
+	<meta property="og:description" content="지속가능한 패션 산업을 위해서">
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="favicon.ico">
+
 </head>
 <body>
-
+	<section id="main">
 	<header>
 			<img src="woman.jpg" class="headerbg">
 	</header>
+	
 	<!--패션산업이 환경에 미치는 영향-->
 	<section class="black h-900">
 		<div class="rel row">
@@ -177,6 +191,7 @@
 			</div>
 		</div>
 	</section>
+
 	<!--질문 던지기-->
 	<section class="black">
 		<div class="row">
@@ -185,11 +200,15 @@
 				이제 당신의 차례입니다.
 			</h3>
 			<button class="test start_button start_button_hover" type="button" 
-					onclick="js:begin()">지속가능한 패션 용어 테스트하기</button>
+					onclick="js:begin()">나의 패션 지속가능성 테스트하기</button>
 		</div>
 	</section>
-	<!--질문 화면-->
-			<!-- <section id="qna">
+		<footer class="back1 footer">
+		designed by Jina LEE &copyright 2021 all rights reserved
+	</footer>
+		</section>
+		<!--질문 화면-->
+			<section id="qna">
 				<div class="status mt-5">
 					<div class="statusBar">
 					</div>
@@ -204,7 +223,7 @@
 			</section>
 			<section id="result">
 					<div class="mx-auto pt-5 mb-1">
-				  	<h2 class="mywalk">나의 걸음 유형은</h2>
+				  	<h2 class="mywalk"></h2>
 					 </div>
 				   <div class="resultname">
 				    	
@@ -215,13 +234,11 @@
 				   <div class="resultDesc my-5">
 				    	
 				   </div>
-				   <button type=key_ring class="key_ring">버튼1</button>
-				   <button type="walk_donate" class="walk_donate my-3">버튼2</button>
-			</section> -->
-	<footer class="back1 footer">
-		designed by Jina LEE &copyright 2021 all rights reserved
-	</footer>
-	<script  src="./data.css" charset="utf-8"></script>
+				   <a href="index.html"><button type=result class="resultbtn">패션 산업 다시보기</button></a>
+				  
+			</section>
+
+	<script  src="./data2.js" charset="utf-8"></script>
 	<script charset="utf-8" src="./start2.js"></script>
 </body>
 </html>
