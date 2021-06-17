@@ -1,0 +1,118 @@
+*{font-family: 'Noto Sans KR', sans-serif;}
+		.block{display: block;}
+		.headerbg{width: 100%;display: block;}
+		.row{width: 1000px;margin: auto;}
+		/*.row_rel{width: 1680px;margin: auto;position: relative;}*/
+		.back1{background: url(background.jpg);background-size: 100% auto;background-attachment: fixed;}
+		.black{background: #000000;}
+		.white{background: #ffffff;}
+		.flex{display: flex;}
+		.font_white{color: white;}
+		.sustainable{width: 100%;}
+		.abs{position: absolute;}
+		.rel{position: relative; width: 1000px; margin: auto;}
+		
+
+		.water{left: 50%; top: 320px;}
+		.watertext{left: 23%; margin-top: 20%;z-index: 3;}
+
+		.gas{top: 360px; left: 10%;}
+		.gas_text{top: 620px; left: 45%;}
+
+		.tank_text{left: 200px; top: 1000px;}
+		.tank{left: 60%; top: 800px;}
+
+
+		.h-600{height: 600px;}
+		.h-800{height: 800px;}
+		.h-900{height: 1700px;}
+
+		.consumerism{font-size: 1.7em;}
+		.fastfashion_title{font-size: 3.2em;padding-bottom: 10px;}
+		.fastfashion_text{font-size: 1.2em;}
+
+		.global_agenda{margin-bottom: 30px;font-size: 3.2em;}
+		.global_text{font-size: 1.2em;}
+
+		.g7{font-size: 1.9em;line-height: 1.4;}
+		.fashion_pact{font-size: 3.2em;padding-bottom: 10px;}
+		.fashion_pact_text{font-size: 1.2em;}
+
+		.g7_logo{width: 90%;margin-left: 140px; margin-top: 120px;}
+		.brand_logos{width: 600px;margin-bottom: 100px;}
+		.h-1400{height: 1400px;}
+		.bin_img{width: 100%;}
+		.bin{padding-top: 100px; padding-bottom: 100px;}
+		.pollution_text{margin-top: 350px; font-size: 1.5em;
+			line-height: 1.4;}
+		.fastfashion{padding-top: 200px;padding-bottom: 200px;}
+		.globalagenda{padding-top: 100px;padding-bottom: 160px;}
+		.global_logo{width: 500px;}
+
+		.england{margin-top: 100px;margin-bottom: 10px;}
+		.extinction{margin-top: 50px;}
+		.extinction_rebellion_text{font-size: 1.2em; 
+			font-weight: 500; margin-top: 10px;}
+		.text_fashionshow{margin-top: 120px; font-size: 1.2em;}
+		.text_letter{padding-top: 80px;font-size: 1.2em;
+					margin-bottom: 60px;padding-left: 50px;}
+		.rebellion{width: 120%;padding-left: 30px; padding-top: 50px;}
+		
+		p{font-weight: 500;}
+
+		.model{font-size: 1.4em; margin-top: 150px;}
+		.model_title{font-size: 3.2em;}
+		.model{width: 25%;top: 18%; z-index: 5; left: 23%;}
+		.charity{width: 25%; top: 43%; left: 48%;}
+		.model_text{width: 50%; top: 80%; left: 24%; font-size: 1.2em;}
+
+		.orsola_section{padding:  50px 0px;}
+		.woman_img{width: 25%; top: 100px; left: 18%;}
+		.fashion_revolution{font-size: 1.4em;line-height: 1.5;
+			padding-top: 40px;text-align: right;}
+		.orsola{font-size: 3.6em;padding-top: 20px;text-align: right;}
+		.orsola_text_english{font-size: 1.2em; margin-top: 40px;}
+		.orsola_text{font-size: 1.2em; padding-top: 10px; 
+				margin-bottom: 120px;}
+
+		.your_turn{text-align: center; font-size: 1.6em;
+					line-height: 1.5; margin-top: 240px;
+					margin-bottom: 120px;}
+
+		.footer{text-align: center; padding: 150px 0px;font-weight: 500;}
+
+
+		.test{display: inline-block; text-align: center; vertical-align: middle;
+				border: 1px solid; padding:  30px 0px; margin-bottom: 200px;}
+		.start_button{cursor: pointer; color: #000000; background-color:#D6D6D6;
+			border-color: gray; line-height: 1.5;border-radius: 1.1rem;font-size: 1.3rem;
+			font-weight: 400;}
+		.start_button_hover{text-decoration: none;
+		}
+			
+
+
+
+/*.row_rel{width: 1680px;margin : auto;position: relative;}
+.h-600{height: 600px;}
+.abs{position: absolute;}
+.hwimain_text{top: 420px;left: 345px;z-index: 3;}
+
+.hwi_1{position: absolute;width: 600px;top: 280px;left: 60%;z-index: 2;}
+		.hwi_2{position: absolute;width: 550px;top: 550px;left: 500px;z-index: 2;}
+
+<section>
+		<div class="row_rel">
+			<div class="h-600">
+				<div class="abs hwimain_text">
+					<h2 class="hwitext noto_sans">MESSENGER BAG</h2><br>
+					<h1 class="hwitextbig noto_sans">HAWAII<br>FIVE-O</h1></div>
+				<img src="hwi_lb_mainbg.png" class="hwimainbg">
+				<img src="hwi_main2.png" class="hwi_1 hwi_1_hover">
+				<img src="hwi_main1.png" class="hwi_2 hwi_2_hover">
+			</div>
+		</div>
+	</section>
+*/
+
+
